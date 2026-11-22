@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sine Wave Motion - p5.js</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #f4f6f9;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 25px;
+      line-height: 1.6;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      margin-top: 15px;
+    }
+    .info {
+      max-width: 700px;
+      width: 100%;
+      background: #fff;
+      padding: 15px 20px;
+      border: 1px solid #ccc;
+      margin-top: 15px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sine Wave Animation</h1>
+  <div id="canvas-container"></div>
+
+  <div class="info">
+    <p><strong>Controls:</strong> <b>SPACE / CLICK</b> = Pause/Resume &nbsp;|&nbsp; <b>UP / DOWN Arrows</b> = Change Speed</p>
+    <p><strong>Explanation Video:</strong> <a href="YOUR_VIDEO_LINK_HERE" target="_blank">Watch Video Explanation</a></p>
+    <p><strong>References &amp; Tools:</strong> <a href="https://p5js.org/reference/" target="_blank">p5.js Reference</a> (<code>createCanvas</code>, <code>sin</code>, <code>circle</code>) and <a href="https://gemini.google.com/" target="_blank">Google Gemini AI</a>.</p>
+  </div>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
